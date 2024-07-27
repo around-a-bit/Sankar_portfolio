@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.color{
+	color:#FF9538 ;
+    text-decoration: none;
+}
+#navbarNav{
+    font-family: 'Open Sans', sans-serif;
+}
+.custom-navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust the alpha value (0.8) for opacity */
+opacity: 0.8;
+}
+
+
+#home p,h1,h4 {
+    color: black ;
+    text-align: center;
+    font-size: 4rem;
+    font-family: Garamond, serif;
+} 
+
+/* About page Section */
+#about{
+	padding: 80px 0;
+    text-decoration: none;
+
+}
+#about h2{
+    padding: 30px 0;
+    font-size: 40px;
+    font-family: Garamond, serif;
+    text-align: center;
+}
+
+ul.about-list{ 
+    margin: 30px 0 0 ;
+    text-decoration: none;
+}
+ul.about-list li{
+    font-family: 'Open Sans', sans-serif;
+    
+    /* font-family: Garamond, serif; */
+    display: block;
+	font-size: 16px;
+	line-height: 30px;
+    text-decoration: none;
+}
+ul.about-list a{
+    font-family: 'Open Sans', sans-serif;
+    
+    /* font-family: Garamond, serif; */
+    color:#FF9D10;
+    text-decoration: none;
+}
+
+
+#myimg{
+    filter: drop-shadow(1px 1px 30px green);
+
+}
+
+
+/* Project cards */
+
+
+#my_projects h2{
+    padding: 30px 0;
+    font-size: 40px;
+    font-family: Garamond, serif;
+    text-align: center;
+}
+#my_projects .card {
+    transition: transform 0.5s ease;
+    background: none;
+}
+#my_projects .card:hover {
+    box-shadow: 0 8px 16px 0 #FF9538;
+}
+
+#my_projects .card-body {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background: none;
+}
+#my_projects .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: Garamond, serif; */
+    text-align: center;
+    background: none;
+}
+#my_projects .card-text{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: Garamond, serif; */
+    text-align:left;
+    background: none;
+    
+} 
+
+#my_projects .card-footer button{
+    background:none;
+}
+
+#my_projects .card:hover {
+    transform: translateY(-10px);
+}
+
+
+
+/* Contact Me Section */
+#contact_me h2{
+    padding: 30px 0;
+    font-size: 40px;
+    font-family: Garamond, serif;
+    text-align: center;
+}
+
+#contact{
+    font-size: 20px;
+    font-family: Garamond, serif;
+    display:flex;
+    text-align: center;
+    color: #212121;
+    text-decoration: none;
+}
+#contact strong{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Social Links Section */
+#social{
+    /* content: ""; */
+    background-color: rgb(255, 255, 255);
+    font-family: Garamond, serif;
+
+    padding: 30px 0;
+    font-size: 40px;
+    font-family: Garamond, serif;
+    text-align: center;
+    color: black;
+    /* display: block; */
+    
+}
+
+#icons button{
+    display: block;
+    border:0px;
+    background: none;
+}
+
+
+#quote{
+    text-decoration: none;
+    display:flex;
+    text-align: center;
+    font-size: 25px;
+    font-family: Garamond, serif;
+    cursor: pointer;
+    border-radius: 50px;
+    justify-content: center;
+}
+#quote:hover {
+    box-shadow: 0 1px 18px 0 #FF9538;
+}
+
